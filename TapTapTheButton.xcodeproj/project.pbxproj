@@ -9,8 +9,9 @@
 /* Begin PBXBuildFile section */
 		100CAD8224198445003E1265 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 100CAD8124198444003E1265 /* Assets.xcassets */; };
 		100CAD842419947B003E1265 /* ScreenViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100CAD832419947B003E1265 /* ScreenViews.swift */; };
-		100CAD8624199752003E1265 /* GameOver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100CAD8524199752003E1265 /* GameOver.swift */; };
-		103FD75F2419A449009FF170 /* GameOverScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 103FD75E2419A449009FF170 /* GameOverScreen.swift */; };
+		102CA48F24332BF4005FDE1B /* GameOverScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 102CA48E24332BF3005FDE1B /* GameOverScreen.swift */; };
+		102CA49124332E0B005FDE1B /* HowToPlayScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 102CA49024332E0B005FDE1B /* HowToPlayScreen.swift */; };
+		102CA4932433309D005FDE1B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 102CA4922433309D005FDE1B /* ContentView.swift */; };
 		10E26124240DF53A0058F539 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E26123240DF53A0058F539 /* User.swift */; };
 		10FF2C02240DB0F10010D0A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10FF2C01240DB0F10010D0A2 /* AppDelegate.swift */; };
 		10FF2C04240DB0F10010D0A2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10FF2C03240DB0F10010D0A2 /* SceneDelegate.swift */; };
@@ -42,8 +43,9 @@
 /* Begin PBXFileReference section */
 		100CAD8124198444003E1265 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		100CAD832419947B003E1265 /* ScreenViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenViews.swift; sourceTree = "<group>"; };
-		100CAD8524199752003E1265 /* GameOver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOver.swift; sourceTree = "<group>"; };
-		103FD75E2419A449009FF170 /* GameOverScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GameOverScreen.swift; path = ../../../../../../.Trash/GameOverScreen.swift; sourceTree = "<group>"; };
+		102CA48E24332BF3005FDE1B /* GameOverScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOverScreen.swift; sourceTree = "<group>"; };
+		102CA49024332E0B005FDE1B /* HowToPlayScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToPlayScreen.swift; sourceTree = "<group>"; };
+		102CA4922433309D005FDE1B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		10E26123240DF53A0058F539 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		10FF2BFE240DB0F10010D0A2 /* TapTapTheButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TapTapTheButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		10FF2C01240DB0F10010D0A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -111,12 +113,13 @@
 			children = (
 				10FF2C01240DB0F10010D0A2 /* AppDelegate.swift */,
 				10FF2C03240DB0F10010D0A2 /* SceneDelegate.swift */,
+				102CA4922433309D005FDE1B /* ContentView.swift */,
 				100CAD832419947B003E1265 /* ScreenViews.swift */,
 				10E26123240DF53A0058F539 /* User.swift */,
 				10FF2C31240DBC6B0010D0A2 /* TitleScreen.swift */,
+				102CA49024332E0B005FDE1B /* HowToPlayScreen.swift */,
 				10FF2C33240DBC860010D0A2 /* GameScreen.swift */,
-				100CAD8524199752003E1265 /* GameOver.swift */,
-				103FD75E2419A449009FF170 /* GameOverScreen.swift */,
+				102CA48E24332BF3005FDE1B /* GameOverScreen.swift */,
 				100CAD8124198444003E1265 /* Assets.xcassets */,
 				10FF2C0C240DB0F60010D0A2 /* LaunchScreen.storyboard */,
 				10FF2C0F240DB0F60010D0A2 /* Info.plist */,
@@ -285,11 +288,12 @@
 				10FF2C02240DB0F10010D0A2 /* AppDelegate.swift in Sources */,
 				10FF2C34240DBC860010D0A2 /* GameScreen.swift in Sources */,
 				100CAD842419947B003E1265 /* ScreenViews.swift in Sources */,
-				100CAD8624199752003E1265 /* GameOver.swift in Sources */,
 				10FF2C04240DB0F10010D0A2 /* SceneDelegate.swift in Sources */,
-				103FD75F2419A449009FF170 /* GameOverScreen.swift in Sources */,
+				102CA48F24332BF4005FDE1B /* GameOverScreen.swift in Sources */,
+				102CA4932433309D005FDE1B /* ContentView.swift in Sources */,
 				10FF2C32240DBC6B0010D0A2 /* TitleScreen.swift in Sources */,
 				10E26124240DF53A0058F539 /* User.swift in Sources */,
+				102CA49124332E0B005FDE1B /* HowToPlayScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

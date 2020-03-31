@@ -18,11 +18,14 @@ struct ScreenViews: View {
             else if self.user.View == User.Views.GameScreen {
                 GameScreen()
             }
-            else if self.user.View == User.Views.GameOverScreen {
+            else if self.user.View == User.Views.GameOverScreen{
                 GameOverScreen()
             }
-            else if self.user.View == User.Views.GameOver {
-                GameOver()
+            else if self.user.View == User.Views.HowToPlayScreen {
+                HowToPlayScreen()
+            }
+            else if self.user.View == User.Views.ContentView {
+                ContentView()
             }
         }
     }

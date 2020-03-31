@@ -13,12 +13,15 @@ class User: ObservableObject {
         case TitleScreen
         case GameScreen
         case GameOverScreen
-        case GameOver
+        case HowToPlayScreen
+        case ContentView
     }
     @Published var View = Views.TitleScreen
     @Published var score = 0
-    @Published var gameOver = false
     @Published var userScore = 0
     @Published var highScore = 0
-    //@Published var countDown = 00.0s
+    @Published var gameOver = false
+    @Published var timeRemaining = 10.02 //--->shows 10.00 seconds
+    @Published var timeWasIncreased = false
+    @Published var showTimeIncrease = 00.00
 }
