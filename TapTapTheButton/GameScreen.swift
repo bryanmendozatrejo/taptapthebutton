@@ -11,7 +11,6 @@ import SwiftUI
 struct GameScreen : View {
 @EnvironmentObject var user: User
 @State var showIncrease = false
-@State private var tapped = false
 @State private var x_position = [50,75,100,125,150,175,200,225,250,275,300,325,350].shuffled()
 @State private var x_index = Int.random(in: 0...2)
 @State private var y_position = [100,125,150,175,200,225,250,275,300,325,350,375,400,425,450,475,500,525,550,575,600,625,650,675,700,725,750,775,800].shuffled()
@@ -61,7 +60,6 @@ struct GameScreen : View {
                             .onReceive(self.timer) { _ in
                             if self.user.timeRemaining > 0.01 {
                                 self.user.timeWasIncreased = false
-                                self.tapped = false
                                 self.user.timeRemaining -= 0.01
                             }
                             else {
