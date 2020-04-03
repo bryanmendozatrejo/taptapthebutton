@@ -16,7 +16,7 @@ struct GameOverScreen: View {
     Color.black
     .edgesIgnoringSafeArea(.all)
         VStack {
-            HStack (spacing: 220) {
+            HStack (spacing: 210) {
             Text("HIGH SCORE: ")
                 .foregroundColor(Color.white)
                 .font(.custom("courier", size: 20))
@@ -47,6 +47,7 @@ struct GameOverScreen: View {
                         self.user.score = 0 //resets score
                         self.user.userScore = 0 //resets for highScore
                         self.user.timeRemaining = 10.02 //resets time
+                        self.user.gameOver = false
                         }
                     }
                 }) {
